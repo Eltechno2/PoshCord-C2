@@ -206,7 +206,7 @@ Function quickInfo{
         tts        = $false
         embeds     = @(
             @{
-                title       = "$env:COMPUTERNAME | Computer Information "
+                title       = "$env:COMPUTERNAME | :pipboy: Succesfully Entered the Database :pipboy: "
                 "description" = @"
 `````ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM``````
 ```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
