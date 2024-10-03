@@ -1473,7 +1473,7 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 
 if ($InfoOnConnect -eq '1'){
-    $infocall = ':hourglass: Getting system info - please wait.. :hourglass:'
+    $infocall = ':hourglass: Trying to get access to the Terminal Please Wait.... :hourglass:'
 }
 else{
     $infocall = 'Type `` Options `` in chat for commands list'
