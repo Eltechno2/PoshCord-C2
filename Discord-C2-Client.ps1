@@ -41,7 +41,7 @@ $timestamp = Get-Date -Format "dd/MM/yyyy  @  HH:mm"
 # =============================================================== MODULE FUNCTIONS =========================================================================
 # Download ffmpeg.exe function (dependency for media capture) 
 Function GetFfmpeg{
-    sendMsg -Message ":hourglass: ``Downloading UOS to Client.... Please Wait`` :hourglass:"
+    sendMsg -Message ":sabiondo: ``Downloading UOS to Client.... Please Wait`` :sabiondo:"
     $Path = "$env:Temp\ffmpeg.exe"
     $tempDir = "$env:temp"
     If (!(Test-Path $Path)){  
